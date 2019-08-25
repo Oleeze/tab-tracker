@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --watch --exec npm run lint && server",
-    "server": "node src/app.js",
+    "server": "nodemon src/app.js",
     "lint": "eslint **/*.js"
   },
   "keywords": [],
